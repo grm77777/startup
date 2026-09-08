@@ -1,4 +1,4 @@
-# Your startup name here
+# LIL' Planner
 
 [My Notes](notes.md)
 
