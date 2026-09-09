@@ -6,7 +6,9 @@ The LIL' Planner is an assignment organizer designed to help college students ma
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Meet LIL' Planner, your new assignment organizer! Elevate your studying experience by consoldating assignments all into one place. Group assignments by class and sort them by due date. Manage your time better by breaking assignments into smaller tasks. Let LIL' celebrate with you as you accomplish your goals! 
+
+Lock in, losers - it's study time. 
 
 ### Design
 
