@@ -23,9 +23,13 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Login to access personal assignment details
+- Input class details (name, date & time, late policy) and select a color
+- Input assignment details (name, due date, course)
+- Break assignments down into multiple tasks 
+- Display upcoming tasks, color coded by class and organized by due date
+- Send push notifications when an assignment will be due later that day 
+- Celebrate whenever a task is marked as completed 
 
 ### Technologies
 
