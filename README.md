@@ -2,7 +2,7 @@
 
 [My Notes](notes.md)
 
-The LIL' Planner is an assignment organizer designed to help college students managing classes across several different sites. The application will have a calming, pastel pallet and cutesy aesthetic that will encourage a more relaxed feeling to homework management. Features will include the ability to input upcoming assignments and tests, break down assignments and tests into smaller tasks and study sessions, receive push notifications alerting users to upcoming deadlines, and a celebration screen when users mark anything as complete. 
+The LIL' Planner is an assignment organizer designed to help college students managing classes across several different sites. The application will have a calming, pastel palette and cutesy aesthetic that will encourage a more relaxed feeling to homework management. Features will include the ability to input upcoming assignments and tests, break down assignments and tests into smaller tasks and study sessions, receive push notifications alerting users to upcoming deadlines, and a celebration screen when users mark anything as complete. 
 
 ### Elevator pitch
 
@@ -35,12 +35,12 @@ sequenceDiagram
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - The application will include three HTML pages: a login page, an input page, and a display page that shows upcoming assignments. There will also be a notification component that displays when a push notification is received. 
+- **CSS** - Styling for the application will look good on different sized screens. Colors will pull from a calming, coordinated palette. Overall design will envoke feelings of calm focus. 
+- **React** - Responds to users, allowing them to login, create classes, input assignments, make subtasks, and mark tasks as completed. Also provides backend endpoint calls. 
+- **Service** - Backend service will provide endpoints for authenticating users, storing new assignments/subtasks, retrieving tasks/subtasks, marking a task as complete, and logging users out. Service will also retrieve a [random cat fact](https://catfact.ninja/) to help users celebrate every time they mark a task as complete. 
+- **DB/Login** - The database will store authentication information, courses, and assignments/subtasks and their current status (either complete or incomplete). 
+- **WebSocket** - When an assignment are due within three hours, a notification is broadcast to the user. 
 
 ## 🚀 Specification Deliverable
 
