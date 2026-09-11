@@ -12,7 +12,7 @@ Lock in, losers - it's study time.
 
 ### Design
 
-![Design image](placeholder.png)
+![Login Page](login.png)
 
 Here is a sequence diagram demonstrating how the user will send data to and receive data from the backend. 
 
