@@ -14,6 +14,8 @@ Lock in, losers - it's study time.
 
 ![Login Page](login.png)
 
+![Planner Page](main_planner.png)
+
 Here is a sequence diagram demonstrating how the user will send data to and receive data from the backend. 
 
 ```mermaid
