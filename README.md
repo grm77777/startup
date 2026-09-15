@@ -63,9 +63,9 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Rented EC2 server** - I did not complete this part of the deliverable.
-- [ ] **Leased domain name** - I did not complete this part of the deliverable.
-- [ ] **Server accessible** from my domain: [https://yourdomainnamehere.click](https://yourdomainnamehere.click) - I did not complete this part of the deliverable.
+- [x] **Rented EC2 server** - I rented a t3.micro EC2 server and named it `cs260-startup-base`.
+- [x] **Leased domain name** - I leased the domain name `lilplanner.click`.
+- [x] **Server accessible** from my domain: [https://lilplanner.click](https://lilplanner.click) - The server is connected to the domain name. Caddy is set up so that HTTPS is always used. 
 
 ## 🚀 HTML deliverable
 
