@@ -30,6 +30,7 @@ Caddy is accessed by SSHing into the server. By modifying the rule for handling 
 ## HTML
 
 ### Elements
+
 HTML is broken up in different types of elements. Common types of elements (copied from the course's MasteryLS) are as follows: 
 
 | element | meaning |
@@ -67,6 +68,10 @@ HTML is broken up in different types of elements. Common types of elements (copi
 | `video` | Video content |
 | `svg` | Scalable vector graphic content |
 | `iframe` | Inline frame of another HTML page |
+
+### Live Server Extension 
+
+After installing the "Live Server" extension, you can select `Go Live` to launch the HTML files in a browser, allowing you to debug directly in VS Code. 
 
 ## React
 
