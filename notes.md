@@ -17,7 +17,7 @@ This file represents what I have learned about web programming. I love web progr
 
 Servers are accessed in AWS using EC2 dashboard. The server I set up for this class, `cs260-startup-base` has been initialized as type t3.micro. (I'm curious to see if that will need to change as the semester goes on!) It is connected to an elastic IP address named `lil-planner` that points to `13.217.120.6`. 
 
-To SSH into the server, run `ssh -i production.pem ubuntu@13.217.120.6`.
+To SSH into the server, run `ssh -i keys/production.pem ubuntu@13.217.120.6`.
 
 ### Domain Name
 
