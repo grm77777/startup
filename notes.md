@@ -73,6 +73,10 @@ HTML is broken up in different types of elements. Common types of elements (copi
 
 After installing the "Live Server" extension, you can select `Go Live` to launch the HTML files in a browser, allowing you to debug directly in VS Code. 
 
+### Deploying Code
+
+Once the HTML code is ready to be deployed, run the `deployfiles.sh` script. For example, to deploy to startup, run `./scripts/deployFiles.sh -k keys/production.pem -h lilplanner.click -s startup`
+
 ## React
 
 Interesting things I have learned about React
