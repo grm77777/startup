@@ -71,9 +71,9 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
+- [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
 - [x] **HTML pages** - I created five pages: home, signup, assignments, notifications, and celebrate. 
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
+- [x] **Proper HTML element usage** - I used header, footer, and main on all pages.
 - [x] **Links** - All of my pages contain a header with links to all other pages. 
 - [x] **Text** - Each of the courses and assignments are described using text. 
 - [x] **3rd party API placeholder** - I will be using an API that displays random cat facts to celebrate completing an assignment. I added a random cat fact to the celebration page. 
