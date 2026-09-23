@@ -78,8 +78,8 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [ ] **Text** - I did not complete this part of the deliverable.
 - [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
 - [ ] **Images** - I did not complete this part of the deliverable.
-- [x] **Login placeholder** - I created a login placeholder in the home page. 
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
+- [x] **Login placeholder** - I created a login placeholder in the home page. While currently hardcoded as Hayley, the user's unique name will be displayed after they log in. 
+- [x] **DB data placeholder** - The user's courses and assignments will be pulled from the database (see the assignments page).
 - [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
 
 ## 🚀 CSS deliverable
