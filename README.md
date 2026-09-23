@@ -76,8 +76,8 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
 - [x] **Links** - All of my pages contain a header with links to all other pages. 
 - [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
+- [x] **3rd party API placeholder** - I will be using an API that displays random cat facts to celebrate completing an assignment. I added a random cat fact to the celebration page. 
+- [x] **Images** - I created an icon and linked an image of a cat celebrating on the celebration page. 
 - [x] **Login placeholder** - I created a login placeholder in the home page. While currently hardcoded as Hayley, the user's unique name will be displayed after they log in. 
 - [x] **DB data placeholder** - The user's courses and assignments will be pulled from the database (see the assignments page).
 - [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
