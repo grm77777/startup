@@ -12,9 +12,9 @@ Lock in, losers - it's study time.
 
 ### Design
 
-![Login Page](images/readme/login.png)
+![Login Page](public/images/readme/login.png)
 
-![Planner Page](images/readme/main_planner.png)
+![Planner Page](public/images/readme/main_planner.png)
 
 Here is a sequence diagram demonstrating how the user will send data to and receive data from the backend. 
 
