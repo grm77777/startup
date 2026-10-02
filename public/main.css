@@ -74,6 +74,41 @@ menu .nav-item:hover {
   color: #c714a6;
 }
 
+.welcome {
+  font-family: "Send Flowers", cursive;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 0;
+}
+
+.login-form button {
+  align-self: center;
+  background-color: #F1C0E8;
+  border: 1px solid #c714a6;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.login {
+  width: 340px;
+}
+
+.main-text {
+  display: block;
+  width: 340px;
+  text-align: center;
+  font-family: "Send Flowers", cursive;
+  font-weight: 600;
+  font-size: 30px;
+}
+
 footer {
   align-items: center;
   flex: 0 40px;
