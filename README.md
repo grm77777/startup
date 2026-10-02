@@ -91,8 +91,8 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Use of a CSS framework** - I used the bootstrap CSS framework. 
 - [x] **All visual elements styled using CSS** - All elements are styled with CSS - there are no more visual elements from HTML. 
 - [x] **Responsive to window resizing using flexbox and/or grid display** - I used flexbox to make sure my pages were responsive to window resizing. 
-- [x] **Use of a imported font** - I did not complete this part of the deliverable.
-- [x] **Use of different types of selectors including element, class, ID, and pseudo selectors** - I used both element and class selectors. 
+- [x] **Use of a imported font** - I imported and used "Send Flowers" and "Prompt", both from Google Fonts.
+- [x] **Use of different types of selectors including element, class, ID, and pseudo selectors** - I used element, class, and ID selectors. 
 
 ## 🚀 React part 1: Routing deliverable
 

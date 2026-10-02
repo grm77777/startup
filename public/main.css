@@ -103,6 +103,10 @@ menu .nav-item:hover {
   box-shadow: none;
 }
 
+#login-button {
+  padding: 10px 20px;
+}
+
 .login {
   width: 340px;
 }
