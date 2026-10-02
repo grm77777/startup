@@ -1,0 +1,35 @@
+main {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.table-title {
+  display: block;
+  width: 340px;
+  text-align: center;
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 1rem;
+}
+
+table {
+  border: 2px solid #000;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+table th {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid #000;
+  background-color: #F1C0E8;
+}
+
+table td {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 0.75rem 1rem;
+}
+
