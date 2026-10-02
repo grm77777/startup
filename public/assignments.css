@@ -14,22 +14,21 @@ main {
 }
 
 table {
-  border: 2px solid #000;
+  border: 2px solid var(--color-border);
   border-collapse: separate;
   border-spacing: 0;
 }
 
 table th {
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-right: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
   padding: 0.75rem 1rem;
-  border-bottom: 2px solid #000;
-  background-color: #F1C0E8;
+  border-bottom: 2px solid var(--color-border);
+  background-color: var(--color-background-header);
 }
 
 table td {
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-right: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
   padding: 0.75rem 1rem;
 }
-
