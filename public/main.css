@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Send+Flowers&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 375px;
+  margin: 0;
+}
+
+header {
+  flex: 0 50px;
+  margin: 0;
+  background-color: #F1C0E8;
+  border-bottom: solid #c714a6 thin;
+}
+
+main {
+  flex: 1 calc(100vh - 100px);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF0FC;
+  font-family: "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+menu {
+  flex: 1;
+  display: flex;
+  flex-direction: row !important;
+  list-style: none;
+}
+
+.navbar-fixed-top {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand-lil {
+  padding-left: 0.3em;
+  font-family: "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.navbar-brand-planner {
+  font-family: "Send Flowers", cursive;
+  font-style: normal;
+  font-weight: 900;
+}
+
+menu .nav-item {
+  padding: 0 1rem;
+  font-family: "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+menu .nav-item:hover {
+  color: #c714a6;
+}
+
+.nav-link-active {
+  font-weight: 400;
+  color: #c714a6;
+}
+
+.nav-link-active:hover {
+  color: #c714a6;
+}
+
+footer {
+  align-items: center;
+  flex: 0 40px;
+  margin: 0;
+  background-color: #F1C0E8;
+  border-top: solid #c714a6 thin;
+  font-family: "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  padding-top: 7px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+footer a {
+  float: right;
+  color: #c714a6;
+}
+
+footer a:hover {
+  color: #c714a6;
+}
+
+@media (max-height: 600px) {
+  header {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  main {
+    flex: 1 100vh;
+  }
+}
