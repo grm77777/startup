@@ -18,7 +18,7 @@ export default function App() {
                 <h1 className="navbar-brand-planner">planner</h1>
                 <menu>
                 <li className="nav-item">
-                    <NavLink className='nav-link' to="">Login</NavLink>
+                    <NavLink className='nav-link' to="/">Login</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className='nav-link' to='signup'>Signup</NavLink>
