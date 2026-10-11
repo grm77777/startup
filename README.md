@@ -98,10 +98,10 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [ ] **Bundled using Vite** - I did not complete this part of the deliverable.
-- [ ] **Components** - I did not complete this part of the deliverable.
-- [ ] **Router** - I did not complete this part of the deliverable.
+- [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
+- [x] **Bundled using Vite** - I made sure to set up Vite for this project. 
+- [x] **Components** - I made sure all major parts (login, signup, assignment, celebrate, and notifications) were formatted as components.
+- [x] **Router** - I updated the previous navigation bar to use a Router system. 
 
 ## 🚀 React part 2: Reactivity deliverable
 
