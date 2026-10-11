@@ -75,8 +75,10 @@ After installing the "Live Server" extension, you can select `Go Live` to launch
 
 ### Deploying Code
 
-Once the HTML code is ready to be deployed, run the `deployfiles.sh` script. For example, to deploy to startup, run `./scripts/deployFiles.sh -k ../keys/production.pem -h lilplanner.click -s startup`
+Once the HTML code is ready to be deployed, run the `deployFiles.sh` script. For example, to deploy to startup, run `./scripts/deployFiles.sh -k ../keys/production.pem -h lilplanner.click -s startup`
 
 ## React
 
-Interesting things I have learned about React
+### Deploying Code
+
+Once the HTML code is ready to be deployed, run the `deployReact.sh` script. For example, to deploy to startup, run `./scripts/deployReact.sh -k ../keys/production.pem -h lilplanner.click -s startup`
