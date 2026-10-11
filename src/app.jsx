@@ -1,33 +1,61 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
+import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
+import { Login } from './login/login';
+import { Assignments } from './assignments/assignments';
+import { Celebrate } from './celebrate/celebrate';
+import { Notifications } from './notifications/notifications';
+import { Signup } from './signup/signup';
 
 export default function App() {
   return (
-  <div className="body bg-dark text-light">
-    <header class="container-header">
-        <nav class="navbar-fixed-top">
-            <h1 class="navbar-brand-lil">Lil'</h1>
-            <h1 class="navbar-brand-planner">planner</h1>
-            <menu>
-            <li class="nav-item">
-                <a class="nav-link-active" href="index.html">Home</a></li>
-            <li class="nav-item">
-                <a class="nav-link" href="signup.html">Sign Up</a></li>
-            <li class="nav-item">
-                <a class="nav-link" href="assignments.html">Assignments</a></li>
-            <li class="nav-item">
-                <a class="nav-link" href="notifications.html">Notifications</a></li>
-            <li class="nav-item">
-                <a class="nav-link" href="celebrate.html">Celebrate</a></li>
-            </menu>
-        </nav>
-    </header>
+  <BrowserRouter>
+    <div className="body">
+        <header className="container-header">
+            <nav className="navbar-fixed-top">
+                <h1 className="navbar-brand-lil">Lil'</h1>
+                <h1 className="navbar-brand-planner">planner</h1>
+                <menu>
+                <li className="nav-item">
+                    <NavLink className='nav-link' to="">Login</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className='nav-link' to='signup'>Signup</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className='nav-link' to='assignments'>Assignments</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className='nav-link' to='notifications'>Notifications</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className='nav-link' to='celebrate'>Celebrate</NavLink>
+                </li>
+                </menu>
+            </nav>
+        </header>
 
-    <footer>
-    <span class="author">Genevieve Martin</span>
-    <a href="https://github.com/grm77777/startup">Startup GitHub Repository</a>
-    </footer>
-  </div>
+        <main>
+          <Routes>
+            <Route path='/' element={<Login />} exact />
+            <Route path='/signup' element={<Signup />} />
+            <Route path='/assignments' element={<Assignments />} />
+            <Route path='/notifications' element={<Notifications />} />
+            <Route path='/celebrate' element={<Celebrate />} />
+            <Route path='*' element={<NotFound />} />
+          </Routes>
+        </main>
+
+        <footer>
+        <span className="author">Genevieve Martin</span>
+        <a href="https://github.com/grm77777/startup">Startup GitHub Repository</a>
+        </footer>
+    </div>
+  </BrowserRouter>
   );
+}
+
+function NotFound() {
+  return <main className="container-fluid bg-secondary text-center">404: Return to sender. Address unknown.</main>;
 }
